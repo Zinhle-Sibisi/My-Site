@@ -70,18 +70,13 @@
   
           </ul>
           
-          <footer style="color: green;font-family:lucida sans; font-size: 1.5em;">
-            <div style="text-align: left;">
-              <div class="footer_footer">
-              <p style="color: green;font-family:lucida sans; font-size: 1.5em;margin-top: 130px;text-align:center " >
+             
+              <p style="font-family:lucida sans; font-size: 1.5em;margin-top: 130px;text-align:center " >
                   
-                    <p>Contact me:</p>
-                    
-                      <p>Email: example@email.com</p>
+                    <p>For more information, please contact me at:</p>
+                      <p>Email: yourname@example.com</p>
                       <p>Phone: 123-456-7890</p>
-                      <p>Address: 123 Main St, Anytown, USA</p>
-                      <p>Copyright © 2023 Zinhle Sibisi</p>
-                    </ul>
+                    
                   </div>
                 
                 </footer>
