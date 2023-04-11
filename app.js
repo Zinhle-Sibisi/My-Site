@@ -6,7 +6,7 @@ function changeTextColor() {
   
   // This function displays an alert when the user submits a form
   function onSubmit() {
-    alert('Thank you for your submission!');
+    alert('Thank you for your submission! we will get back to you soon!!');
   }
   
   // This function toggles the visibility of a div element
