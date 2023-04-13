@@ -93,7 +93,7 @@ transition: all 0.3s ease;
 
  body {
       font-family: sans-serif;
-      /*background-color: #c2b9b0;*/
+    
 }
 
 
@@ -109,19 +109,15 @@ a {
 
 .section_section1 {
       margin-bottom: 150px; /* Adds margin below header */
+      width: 100%; /* change the width to 100% to occupy the full container */
 }
     
   
-.centered {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-    }
-    
+
     
     .section_section2 {
       margin-bottom: 150px; /* Adds margin below header */
+      width: 100%; /* change the width to 100% to occupy the full container */
 }
 
 
@@ -134,9 +130,45 @@ a {
       position: relative;
       text-align: left;
       height: 1000px; /* adjust height to suit your image */
+
+       }
+
+        
+       .container {
+        display: flex;
+       }
+
+
+          @media screen and (max-width: 768px) {  { /* applies styles only when screen width is 768px or larger */
+            .container {
+              padding: 20px;
+            }
+          }
+          
+           
+              
+         
+         @media (max-width: 768px) {  { /* applies styles only when screen width is 768px or larger */
+        .section_section1 img {
+         width: 100%;
+         height: auto;
+       }
+      }
+    
+    @media only screen and (min-width: 768px) { /* applies styles only when screen width is 768px or larger */
+      .section_section1 {
+        width: 50%; /* set width to 50% for larger screens */
+      }
+    
+      .section_section2 {
+        width: 50%; /* set width to 50% for larger screens */
+      }
+    
+      p {
+        margin-top: 20px; /* adds margin to the top of the paragraph */
+        text-align: center; /* centers the paragraph */
+      }
     }
-    
-    
     
     
     .content {
@@ -149,6 +181,7 @@ a {
       color: black;
       width: 80%;
     }
+    
     .container {
       align-items: center; 
       float: left;
@@ -218,7 +251,7 @@ input[type="submit"]:hover {
 	background-color: #3e8e41;
 }
 .footer_footer{
-      background-color: lightgrey;
+      background-color: black;
       width: 30%;
       height: 10%;
       padding: 10px;
