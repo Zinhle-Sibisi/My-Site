@@ -1,5 +1,5 @@
 # Building My Personal Website.
-![home](https://user-images.githubusercontent.com/107902020/231309937-204badbc-8fbf-4841-8c86-d93ade5593ca.png)
+![1](https://user-images.githubusercontent.com/107902020/231922995-7a68e5f8-ef21-4a3a-8717-7bc5992523e8.png)
 ![a](https://user-images.githubusercontent.com/107902020/231309944-55c3e826-5fa7-42bf-b34e-c55e84762df4.png)
 
 ![portfolioscrn](https://user-images.githubusercontent.com/107902020/230221051-a51923f8-cb9c-4fd0-b644-3f1a4397c728.png)
