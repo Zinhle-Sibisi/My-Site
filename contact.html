@@ -5,12 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-  <title>My Personal Website</title>
+  <title>Contact Form</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="app.js"></script>
+ 
+  <
+  
+
   <style>
-    body {
-      background-color:	#0000;
+     /* Style the form */
+     form {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 0 auto;
+    }
+    label, input {
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #3e8e41;
     }
 
   </style>
@@ -41,9 +62,9 @@
   <main>
     <h1 link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" font family></h1>
 
-</body>
 
-<form id="contact-form">
+
+<form id="form">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required>
 
@@ -51,14 +72,19 @@
   <input type="email" id="email" name="email" required>
 
   <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
+  <textarea id="message" name="message" required> </textarea>
 
-  <button type="submit">Submit</button>
+  <input type="submit" id="submit" value="Send Message">
+ 
 </form>
 
-    
+
       
       </footer>
 </div>
+
 </body>
+<script src="app.js"></script>
+
+
 </html>
